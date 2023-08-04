@@ -1,9 +1,9 @@
-digit = parseInt(prompt("Enter three-digit number"));
+let digit = parseInt(prompt("Enter three-digit number"));
 
-number_3 = digit % 10;
+let number_3 = digit % 10;
 digit = (digit - number_3) / 10;
-number_2 = digit % 10;
-number_1 = (digit - number_2) / 10;
+let number_2 = digit % 10;
+let number_1 = (digit - number_2) / 10;
 
 if(number_1 === number_2 && number_2 === number_3){
     console.log("All numbers are the same.");

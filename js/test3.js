@@ -1,5 +1,5 @@
-firstDigit = parseInt(prompt("Enter the first number"));
-secondDigit = parseInt(prompt("Enter the second number"));
+let firstDigit = parseInt(prompt("Enter the first number"));
+let secondDigit = parseInt(prompt("Enter the second number"));
 
 if (firstDigit === secondDigit){
     console.log("Numbers are equal");
